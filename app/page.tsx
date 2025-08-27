@@ -58,7 +58,7 @@ export default function FloodDetectionSystem() {
   const mapRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const API_BASE_URL = "http://localhost:8000"; // Change to your backend URL
+  const API_BASE_URL = "https://floodvision-mjr4.onrender.com"; // Change to your backend URL
 
   // Initialize Google Maps
   useEffect(() => {
